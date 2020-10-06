@@ -274,6 +274,7 @@ public class DiceGame {
 
     private void printWhoIsLeadingAfterEveryRound() {
 
+        //This result board is printed after every round.
         System.out.println("****** RESULT BOARD ******");
         ArrayList<Player> players = new ArrayList<>(listOfPlayers);
         //comparing based on the number of total achieved after every round.

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd3ebc8-b4ca-4107-a53e-bcf19039e2c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfDice/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameOfDice/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfDice/DiceGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameOfDice/DiceGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameOfDice/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameOfDice/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiceGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +43,14 @@
         <counts>
           <entry key="README" value="21" />
           <entry key="dummy" value="4" />
-          <entry key="java" value="5383" />
+          <entry key="java" value="5448" />
+          <entry key="md" value="1345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5383" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="JAVA" value="5448" />
+          <entry key="PLAIN_TEXT" value="1370" />
         </counts>
       </usages-collector>
     </session>
@@ -93,20 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DiceGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4590">
-              <caret line="306" column="11" selection-start-line="306" selection-start-column="11" selection-end-line="306" selection-end-column="11" />
+            <state relative-caret-position="115">
+              <caret line="276" column="51" lean-forward="true" selection-start-line="276" selection-start-column="51" selection-end-line="276" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/README">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -135,6 +139,7 @@
       <find>.printf</find>
       <find>has lost the game</find>
       <find>tie</find>
+      <find>PLAYER'S RANK</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,8 +152,9 @@
         <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/Dice.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
-        <option value="$PROJECT_DIR$/src/DiceGame.java" />
         <option value="$PROJECT_DIR$/src/README" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/DiceGame.java" />
       </list>
     </option>
   </component>
@@ -171,11 +177,6 @@
               <item name="GameOfDice" type="b2602c69:ProjectViewProjectNode" />
               <item name="GameOfDice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GameOfDice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameOfDice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -184,8 +185,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601930675761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601955970008" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample_outputs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,9 +235,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -239,12 +245,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
@@ -266,7 +272,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DiceGame.java</url>
-          <line>279</line>
+          <line>280</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -339,17 +345,17 @@
     <entry file="file://$PROJECT_DIR$/GameOfDice.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiceGame.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="306" column="11" selection-start-line="306" selection-start-column="11" selection-end-line="306" selection-end-column="11" />
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/README">
+    <entry file="file://$PROJECT_DIR$/src/DiceGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="115">
+          <caret line="276" column="51" lean-forward="true" selection-start-line="276" selection-start-column="51" selection-end-line="276" selection-end-column="51" />
         </state>
       </provider>
     </entry>

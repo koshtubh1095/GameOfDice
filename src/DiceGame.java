@@ -130,7 +130,16 @@ public class DiceGame {
                         if(input.equalsIgnoreCase("r")) {
 
                             int secondResult = dice.roll();
-                            currentRoundScore = (firstResult + secondResult);
+
+                            int thirdResult = 0;
+
+                            if(secondResult == 6) {
+                                thirdResult = dice.roll();
+                            }
+
+                            //going at most 3 results
+
+                            currentRoundScore = (firstResult + secondResult + thirdResult);
                             p.addToTotalScore(currentRoundScore);
 
                             if(p.getTotalScore() - scoreToWin > 0) {

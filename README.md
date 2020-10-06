@@ -13,3 +13,11 @@
 # lets say if one player completes the round by reaching to threshold score then in that case he wont be playing next rounds and those rounds will take place among current users and scores for that round will be limited only to applicable player. Plaer who won will be also diplayed as part of final result after all rounds.
 # Please refer to the comments in the code. If still not clear then let me know.
 # I have also attached few outputs under sample_outputs folder for better reference.
+
+
+## Assumption Made
+
+# For first six -> player gets one more chance
+# For second six -> player gets one more chance
+# For third six there is no further chance given
+# Consecutive 3 sixes are considered, after that turn is passed to next player
